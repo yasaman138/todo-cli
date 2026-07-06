@@ -22,7 +22,7 @@ pip install -e ".[dev]"
 
 ```bash
 todo add "Buy milk"
-todo add "Ship the release" --priority high
+todo add "Go grocery shopping" --priority high
 todo list
 todo list --all        # include completed tasks
 todo done 1
@@ -30,7 +30,7 @@ todo remove 2
 todo clear --yes
 ```
 
-By default, tasks are stored at `~/.config/todo-cli/todos.json`. Set the
+By default, tasks are stored at `~/.config/todo_cli/todos.json`. Set the
 `TODO_CLI_HOME` environment variable to override the storage directory.
 
 ## Development
